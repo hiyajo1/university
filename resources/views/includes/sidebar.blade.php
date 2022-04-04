@@ -1,4 +1,4 @@
-<link href="../../saas/sidebar.scss" rel="stylesheet">
+<link rel="stylesheet" href="/css/sidebar.css">
 <div data-component="navbar">
 
     <nav class="navbar p-0 fixed-top">
