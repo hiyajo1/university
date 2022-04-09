@@ -6,6 +6,6 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::get('/auth', function () {
-    return view('auth');
-});
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
